@@ -40,10 +40,6 @@
 		Price
 		</th>
 		
-		<th>
-		Time
-		</th>
-		
 	</tr>
 	
 	
@@ -73,9 +69,6 @@
 	$<c:out value="${ course.price }"/>
 	</td>
 	
-	<td>
-	<c:out value="${ course.time }" />
-	</td>
 
 </c:forEach>
 

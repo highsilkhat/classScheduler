@@ -51,12 +51,6 @@
 	
 </p>
 
-<p> 
-	<form:label class= "form-label">Time</form:label>
-	<form:errors path= "time"/>
-	<form:input type="datetime-local"  forclass= "form-control" path="time"/>
-
-</p>
 
 <a href="/courses" class="btn btn-danger">Cancel</a>
 

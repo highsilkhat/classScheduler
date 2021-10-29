@@ -48,9 +48,6 @@ public class Course {
 	@Size(min = 10, max = 200, message = "Description must be at least 10 characters")
 	private String description;
 	
-	
-	private LocalTime time;
-	
 
 	@Column(updatable=false)
 	@DateTimeFormat(pattern="yyyy-MM-dd")
@@ -79,21 +76,7 @@ public class Course {
 	}
 	
 	
-	public Course (LocalTime time) {
-		
-	}
 	
-	
-	public LocalTime getTime() {
-		return time;
-	}
-
-
-
-	public void setTime(LocalTime time) {
-		this.time = time;
-	}
-
 
 
 	public double getPrice() {

@@ -25,8 +25,6 @@
 
 <h2>Cost: $<c:out value="${ course.price }"/></h2>
 
-<h2>Time <c:out value="${ course.time }"/></h2>
-
 <p><c:out value="${ course.description }"/></p>
 
 <a href="/courses" class="btn btn-success"> All Classes</a>

@@ -73,8 +73,6 @@ public class CourseController {
 			return "/courses/form.jsp";
 		} else {
 			
-			LocalTime courseTime = new LocalTime (Localtime) course.time
-			
 			courseServ.createCourse(course);
 			return "redirect:/courses";
 		}

@@ -47,11 +47,6 @@
 	<form:label class= "form-label" path = "description">Description</form:label>
 	<form:errors path= "description"/>
 	<form:textarea class= "form-control" path="description"/>
-	
-<p> 
-	<form:label class= "form-label" path = "time">Time</form:label>
-	<form:errors path= "time"/>
-	<form:input type="Localtime" class= "form-control" path="time"/>
 
 </p>
 	
